@@ -8,4 +8,5 @@
 <il>
     <li>SFML 2.0+ development headers and library</li>
     <li>C++11 compliant compiler</li>
+    <li>Visual Studio</li>
 </il>
