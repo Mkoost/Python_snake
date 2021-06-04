@@ -1,6 +1,7 @@
-<h2>Just a simple snake game</h2>
+<h1>Just a simple snake game</h1>
+<h2>Control</h2>
 <il>
-    <li>snake control: w, a, s, d</li>
+    <li>snake: w, a, s, d</li>
     <li>game restar: esc</li>
 </il>
 
