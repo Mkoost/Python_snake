@@ -1,5 +1,5 @@
 ﻿  ConsoleApplication2.cpp
-D:\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(119,94): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+D:\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(115,94): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
           with
           [
               T=unsigned int
@@ -8,7 +8,7 @@ D:\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(
           [
               T=float
           ]
-D:\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(119,66): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+D:\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(115,66): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
           with
           [
               T=unsigned int
@@ -17,7 +17,7 @@ D:\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(
           [
               T=float
           ]
-D:\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(123,110): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+D:\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(119,110): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
           with
           [
               T=unsigned int
@@ -26,7 +26,7 @@ D:\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(
           [
               T=float
           ]
-D:\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(123,71): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+D:\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(119,71): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
           with
           [
               T=unsigned int
@@ -35,8 +35,8 @@ D:\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(
           [
               T=float
           ]
-D:\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(216,25): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-D:\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(248,94): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+D:\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(212,25): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(247,94): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
           with
           [
               T=unsigned int
@@ -45,7 +45,7 @@ D:\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(
           [
               T=float
           ]
-D:\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(248,66): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+D:\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(247,66): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
           with
           [
               T=unsigned int
@@ -54,7 +54,7 @@ D:\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(
           [
               T=float
           ]
-D:\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(250,110): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+D:\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(249,110): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
           with
           [
               T=unsigned int
@@ -63,7 +63,7 @@ D:\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(
           [
               T=float
           ]
-D:\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(250,67): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
+D:\source\repos\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.cpp(249,67): warning C4244: аргумент: преобразование "T" в "T", возможна потеря данных
           with
           [
               T=unsigned int

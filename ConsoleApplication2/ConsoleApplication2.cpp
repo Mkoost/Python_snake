@@ -30,9 +30,6 @@ public:
         this->prev = this;
     }
 
-    ~Snake() {
-        this->all_delete();
-    }
 
     void add_block() {
         Snake* a = new Snake(sf::Vector2<int>(-1, -1), this, this->prev);
@@ -54,14 +51,14 @@ public:
 
     }
 
-    void all_delete(int n = -1) {
-        if (n < this->n) {
-            this->next->all_delete(this->n);
-            if (n != -1) delete (this);
-            else {
-                this->next = this;
-                this->prev = this;
-            }
+    void all_delete() {
+        Snake* a = this->prev;
+        Snake* b;
+
+         while (a != this){
+             b = a->prev;
+             delete a;
+             a = b;
         }
 
     }
@@ -105,8 +102,7 @@ public:
         this->snake->add_n_blocks(n-1);
         this->state = 0;
     }
-
-    ~Snake_controller() {
+    void all_delete() {
         this->snake->all_delete();
         delete snake;
     }
@@ -225,10 +221,13 @@ int game(sf::RenderWindow& window)
         {
             if (event.type == sf::Event::Closed) {
                 window.close();
-                return EXIT;
+                break;
             }
-            if (sf::Keyboard::isKeyPressed(sf::Keyboard::Escape))
-                return MENU;
+            if (sf::Keyboard::isKeyPressed(sf::Keyboard::Escape)) {
+
+                snake.all_delete();
+                return GAME;
+            }
         
             
         }
@@ -253,8 +252,8 @@ int game(sf::RenderWindow& window)
 
         window.display();
     }
-
-    return MENU;
+    snake.all_delete();
+    return EXIT;
 }
 
 int main() {
